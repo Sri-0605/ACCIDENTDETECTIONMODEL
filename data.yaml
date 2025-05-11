@@ -1,0 +1,6 @@
+train: C:\Users\91630\OneDrive\Desktop\sem4 AI project\ai_project\images\train # Path to training images
+val:  C:\Users\91630\OneDrive\Desktop\sem4 AI project\ai_project\images\val  # Path to validation images
+test: C:\Users\91630\OneDrive\Desktop\sem4 AI project\ai_project\images\test      # Path to test images
+
+nc: 3  # Number of classes
+names: ['Accident', 'Non-accident','Fire']  # List of class names
