@@ -9,9 +9,6 @@ from tempfile import NamedTemporaryFile
 # Load YOLO model
 yolo_model = YOLO(r"C:\Users\91630\OneDrive\Desktop\sem4 AI project\yolov8_model.pt")  # Update path to your model
 
-# API Tokens
-IPINFO_TOKEN = "6cc277dc69aff5"
-GEOAPIFY_API_KEY = "7b513e9863a0441296c99881c47d9aec"
 
 # Detect accident in image
 def detect_accident(image_path, conf_threshold=0.3):
@@ -152,3 +149,4 @@ if uploaded_file:
             st.warning("Could not fetch your location.")
     else:
         st.success("✅ No Accident or Fire Detected.")
+
